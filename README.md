@@ -10,8 +10,8 @@ demo.Version = "stable"
 joinCmd := climax.Command{
   Name: "join",
   Brief: "merges the strings given",
-  Usage: ``,
-  Help: ``,
+  Usage: `[-s=] "a few" distinct strings`,
+  Help: `Lorem ipsum dolor sit amet amet sit todor...`,
   
   Flags: []climax.Flag{
     {
